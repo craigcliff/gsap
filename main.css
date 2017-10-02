@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.artboard {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ylw-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+#blk-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+#ylw-btn.active {
+    cursor: default;
+}
+
+#btn-box {
+    width: 150px;
+    height: 45px;
+}
+
+#close-btn {
+    fill: #231f20;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.close {
+    margin-bottom: 20px;
+}
+
+.thankyou {
+    position: absolute;
+    width: 350px;
+    height: -500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.thankyou .close {
+    text-align: right;
+}
+
+.a .section-content {
+    width: 280px;
+    height: 150px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.thankyou .section-content h2 {
+    color: #000;
+}
+
+.thankyou .section-content p {
+    color: #000;
+    font: 20px;
+}
+
+.section-content a {
+    float: none;
+    display: block;
+    text-align: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
